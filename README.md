@@ -18,3 +18,12 @@ Opera 請安裝 ViolentMonkey；
   <a href="https://payment.allpay.com.tw/Broadcaster/Donate/6D43E61922E9BA0AB7FE464E7A64E0DD" target="_blank">捐款贊助</a><small> (歐富寶, 金額你決定)</small>
   <br />鼓勵更多 Idea 付諸執行
 </p>
+<hr>
+<p>
+ 打個小廣告：<br />好冷酒_Hollen9 我除了寫程式、耍廢打 <a href="https://sites.google.com/site/inewskcsgo" target="_BLANK">iNewsekai</a> 之外，也有經營翻譯 Youtube 頻道，專產特效高品質影片翻譯、訂閱人數約五萬。(2017初)
+ <br /><a href="https://youtube.com/c/%E5%A5%BD%E5%86%B7%E9%85%92XD%E9%A0%98%E5%9F%9F" target="_BLANK">youtube.com/c/好冷酒XD領域</a> ──誠摯邀請你一同觀賞來自世界各地的好作品，以及我精心製作的字幕與翻譯。
+</p>
+<p>
+Discord: hollen9#4098<br/>
+Steam: <a href="http://steamcommunity.com/id/hollen9/" target="_BLANK">hollen9</a>
+</p>
