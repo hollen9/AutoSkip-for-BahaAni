@@ -5,7 +5,7 @@
 // @description  自動同意並跳過廣告──執行本腳本後，收看動畫瘋影片將無須手動點選「我同意」。並且，廣告在 30 秒後會自動跳過。
 // @author       hollen9
 // @match        http://ani.gamer.com.tw/animeVideo.php?*
-// @updateURL    
+// @updateURL    https://raw.githubusercontent.com/hollen9/AutoSkip-for-BahaAni/master/autoskip4bahaani.js
 // @grant        GM_updatingEnabled
 // ==/UserScript==
 
