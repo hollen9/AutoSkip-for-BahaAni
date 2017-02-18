@@ -9,3 +9,7 @@ Opera 請安裝 ViolentMonkey；
 
 安裝完成後，你什麼都不需要做；除了開啟一部動畫，你將發現再也無須手動點選「我同意」以及「30 秒跳過廣告」。<br />
 <i>※注意：本插件無法阻擋廣告，而是讓超越一分鐘的廣告縮短為 30 秒。</i>
+<p>
+  <a href="https://payment.allpay.com.tw/Broadcaster/Donate/6D43E61922E9BA0AB7FE464E7A64E0DD" target="_blank">捐款贊助</a><small> (歐富寶, 金額你決定)</small>
+  <br />鼓勵更多 Idea 付諸執行
+</p>
