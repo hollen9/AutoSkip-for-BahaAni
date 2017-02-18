@@ -5,18 +5,18 @@
 <br /><i>※注意：本腳本無法阻擋廣告，而是讓超越半分鐘的廣告縮短為 30 秒。</i>
 
 <h2>步驟一：安裝腳本之前，請先依環境安裝下列任一插件，作為本腳本的引擎。</h2>
-Google Chrome 請安裝 TamperMonkey；<br />
-Mozilla Firefox 請安裝 GreaseMonkey；<br />
-Windows 10 Edge 請安裝 TamperMonkey；<br />
-Opera 請安裝 ViolentMonkey；
+Google Chrome 請安裝 <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">TamperMonkey</a> 插件；<br />
+Mozilla Firefox 請安裝 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/greasemonkey/" target="_blank">GreaseMonkey</a> 插件；<br />
+Windows 10 Edge 請安裝 <a href="https://www.microsoft.com/store/apps/9NBLGGH5162S" target="_blank">TamperMonkey</a> 插件；<br />
+Opera 請安裝 <a href="https://addons.opera.com/extensions/details/violent-monkey/" target="_blank">ViolentMonkey</a> 插件；
 <h2>步驟二：安裝本腳本，讓猴子引擎驅動之。</h2>
 <p>
- 裝好猴子引擎了嗎？ (腳本需要的插件) 那麼就<a href="https://raw.githubusercontent.com/hollen9/AutoSkip-for-BahaAni/master/autoskip4bahaani.user.js" target="_BLANK">安裝</a>吧！<br />
+ 裝好猴子引擎了嗎？ (腳本需要的插件) 那麼就 <a href="https://raw.githubusercontent.com/hollen9/AutoSkip-for-BahaAni/master/autoskip4bahaani.user.js" target="_BLANK">點我安裝腳本</a> 吧！<br />
 </p>
 <h2>步驟三（選用）：有正常運作嗎？覺得好用嗎？</h2>
 <p>本腳本安裝完成後，你什麼都不需要做；除了開啟一部動畫，你將發現再也無須手動點選「我同意」以及「30 秒跳過廣告」。</p>
 <p>
-  <a href="https://payment.allpay.com.tw/Broadcaster/Donate/6D43E61922E9BA0AB7FE464E7A64E0DD" target="_blank">捐款贊助</a><small> (歐富寶, 金額你決定)</small>
+  <a href="https://payment.allpay.com.tw/Broadcaster/Donate/6D43E61922E9BA0AB7FE464E7A64E0DD" target="_blank">捐款贊助</a><small> (免歐富寶帳號, 金額你決定)</small>
   <br />鼓勵更多 Idea 付諸執行
 </p>
 <hr>
