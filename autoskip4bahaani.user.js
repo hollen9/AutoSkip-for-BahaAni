@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自動同意並跳過廣告
 // @namespace    hollen9.bahamut.animation
-// @version      0.1
+// @version      1.0.1
 // @description  自動同意並跳過廣告──執行本腳本後，收看動畫瘋影片將無須手動點選「我同意」。並且，廣告在 30 秒後會自動跳過。
 // @author       hollen9
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -12,6 +12,12 @@
 
 (function() {
     'use strict';
+
+    var sn_PlayButton = ".vjs-big-play-button .vjs-hidden",
+        sn_agree = ".choose-btn-agree",
+        sn_skipAds = ".nativeAD-skip-button.enable",
+        sn_fullscreen = ".vjs-fullscreen-control";
+
     // https://stackoverflow.com/questions/5525071/how-to-wait-until-an-element-exists
     ;(function ($, window) {
 
@@ -65,10 +71,10 @@
     }(jQuery, window));
     var parseAds_interval;
     function clickPlay() {
-        $('.vjs-big-play-button').click();
+        $(sn_PlayButton).click();
     }
-    function clickAgree(){
-        $('.choose a')[0].click();
+    function clickAgree() {
+        $(sn_agree)[0].click();
         console.log("已跳過！");
     }
     function clickSkipAds(){
@@ -77,6 +83,9 @@
         //console.log(text);
         parseAds_interval = setInterval(invHandler_parseAdsWaitTime,1000);
     }
+    function clickFullscreen() {
+        $(sn_fullscreen)[0].click();
+    }
     function invHandler_parseAdsWaitTime(){
         /*var sec = 30;
         sec = parseInt($('.vast-skip-button').text().substring(3,5));
@@ -84,14 +93,15 @@
             clearInterval(parseAds_interval);
             $('.vast-skip-button').click();
         }*/
-        var text = $('.vast-skip-button').text();
+        var text = $(sn_skipAds).text();
         if (text === "點此跳過廣告") {
             clearInterval(parseAds_interval);
-            $('.vast-skip-button').click();
+            $(sn_skipAds).click();
         }
     }
     //Start
-    $('.vjs-big-play-button').waitUntilExists(clickPlay);
-    $('.choose a').waitUntilExists(clickAgree);
-    $('.vast-skip-button').waitUntilExists(clickSkipAds);
+    $(sn_PlayButton).waitUntilExists(clickPlay);
+    $(sn_agree).waitUntilExists(clickAgree);
+    $(sn_skipAds).waitUntilExists(clickSkipAds);
+    $(sn_fullscreen).waitUntilExists(clickFullscreen);
 })();
